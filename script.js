@@ -29,7 +29,9 @@ for (let i=0; i<str.length-1;i++)
     {
         return item;
     }
-     return null
+	else
+	{return null}
+     
 }
 }
 const input = prompt("Enter a string");
