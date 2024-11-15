@@ -8,7 +8,7 @@ function firstNonRepeatedChar(str) {
 let frObj={}
 
 
-for (let i=0; i<str.length-1;i++)
+for (let i=0; i<str.length;i++)
 {
     
    if (! frObj[str.charAt(i)])
