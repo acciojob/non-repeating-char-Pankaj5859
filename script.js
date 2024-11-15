@@ -29,10 +29,10 @@ for (let i=0; i<str.length-1;i++)
     {
         return item;
     }
-	else
-	{return null}
+	
      
 }
+	return null;
 }
-const input = prompt("Enter a string");
+// const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
